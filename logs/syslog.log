@@ -1,0 +1,161 @@
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonProperty" : {
+    "id" : 1,
+    "content" : "Just a test"
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonProperty(myId=1, myContent=Just a test)
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonAnyGetterSetter" : {
+    "Java" : 15,
+    "Hibernate" : 15,
+    "Angular" : 11,
+    "Spring" : 14
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonAnyGetterSetter(skills={Java=15, Hibernate=15, Spring=14, Angular=11})
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonValue" : "KETROUCI Billel"
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonValue(id=null, fullName=KETROUCI Billel)
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "User" : {
+    "id" : 1,
+    "name" : "KETROUCI Billel"
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonRootName(id=1, name=KETROUCI Billel)
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonRawValue" : {
+    "id" : 1,
+    "content" : {"id" : 1, "name" : "KETROUCI Billel"}
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonIgnorePropertiesOrder" : {
+    "lastname" : "KETROUCI",
+    "firstname" : "Billel",
+    "age" : 24
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonInclude" : {
+    "firstname" : "Billel"
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonFormat" : {
+    "id" : 1,
+    "name" : "KETROUCI Billel",
+    "date" : "13/12/2020 - 14:15",
+    "anotherDate" : "09/09/1996 - 04:53"
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonFormat(id=1, name=KETROUCI Billel, date=Sun Dec 13 15:15:00 CET 2020, anotherDate=1996-09-09T04:53)
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonUnwrapped" : {
+    "id" : 1,
+    "firstname" : "Billel",
+    "lastname" : "KETROUCI"
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonUnwrapped(id=1, identity=_JsonUnwrapped.Identity(firstname=Billel, lastname=KETROUCI))
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => Public view Serialized : {
+  "_UserView" : {
+    "firstname" : "Billel",
+    "lastname" : "KETROUCI",
+    "profession" : "Ingénieur"
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => Employee view Serialized : {
+  "_UserView" : {
+    "firstname" : "Billel",
+    "lastname" : "KETROUCI",
+    "birthDate" : "09/09/1996 - 04:53",
+    "salary" : 1735.59,
+    "profession" : "Ingénieur"
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => HR view Serialized : {
+  "_UserView" : {
+    "firstname" : "Billel",
+    "lastname" : "KETROUCI",
+    "birthDate" : "09/09/1996 - 04:53",
+    "salary" : 1735.59,
+    "profession" : "Ingénieur"
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => Admin view Serialized : {
+  "_UserView" : {
+    "id" : 1,
+    "firstname" : "Billel",
+    "lastname" : "KETROUCI",
+    "birthDate" : "09/09/1996 - 04:53",
+    "salary" : 1735.59,
+    "profession" : "Ingénieur",
+    "happyAtWork" : false
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => Public view Deserialized : _UserView(id=null, firstname=Billel, lastname=KETROUCI, birthDate=null, salary=null, profession=Ingénieur, happyAtWork=false)
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => Employee view Deserialized : _UserView(id=null, firstname=Billel, lastname=KETROUCI, birthDate=1996-09-09T04:53, salary=1735.59, profession=Ingénieur, happyAtWork=false)
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => HR view Deserialized : _UserView(id=null, firstname=Billel, lastname=KETROUCI, birthDate=1996-09-09T04:53, salary=1735.59, profession=Ingénieur, happyAtWork=false)
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => Admin view Deserialized : _UserView(id=1, firstname=Billel, lastname=KETROUCI, birthDate=1996-09-09T04:53, salary=1735.59, profession=Ingénieur, happyAtWork=false)
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonManagedReference" : {
+    "id" : 1,
+    "firstname" : "Billel",
+    "lastname" : "KETROUCI",
+    "jsonBackReferences" : [ {
+      "id" : 1,
+      "item" : "ASUS Laptop"
+    }, {
+      "id" : 2,
+      "item" : "Sony Smartphone"
+    }, {
+      "id" : 3,
+      "item" : "Japanese Katana"
+    } ]
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "_JsonBackReference" : {
+    "id" : 1,
+    "item" : "ASUS Laptop"
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonManagedReference(id=1, firstname=Billel, lastname=KETROUCI, jsonBackReferences=[_JsonBackReference(id=1, item=ASUS Laptop), _JsonBackReference(id=2, item=Sony Smartphone), _JsonBackReference(id=3, item=Japanese Katana)])
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonBackReference(id=1, item=ASUS Laptop)
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "User" : {
+    "firstname" : "Billel",
+    "lastname" : "KETROUCI",
+    "items" : [ {
+      "itemName" : "ASUS Laptop",
+      "user" : "Billel"
+    }, {
+      "itemName" : "Sony Smartphone",
+      "user" : "Billel"
+    }, {
+      "itemName" : "Japanese Katana",
+      "user" : "Billel"
+    } ]
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => {
+  "Item" : {
+    "itemName" : "ASUS Laptop",
+    "user" : {
+      "firstname" : "Billel",
+      "lastname" : "KETROUCI",
+      "items" : [ "ASUS Laptop", {
+        "itemName" : "Sony Smartphone",
+        "user" : "Billel"
+      }, {
+        "itemName" : "Japanese Katana",
+        "user" : "Billel"
+      } ]
+    }
+  }
+}
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonIdentityInfo.User(firstname=Billel, lastname=KETROUCI, items=[_JsonIdentityInfo.Item(itemName=ASUS Laptop), _JsonIdentityInfo.Item(itemName=Sony Smartphone), _JsonIdentityInfo.Item(itemName=Japanese Katana)])
+13/12/2020 - 15:15:12 [main] INFO - com.oozeander.App => _JsonIdentityInfo.Item(itemName=ASUS Laptop)
